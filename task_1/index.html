@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    
+    <link rel="icon" type="image/x-icon" href="./foreground.jpeg">
+    <link rel="stylesheet"href="style.css">
+    <style>
+        body{
+            background-image: url("background.jpeg");
+            background-repeat:no-repeat ;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div id="wrapper">
+        
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="./logo.jpeg" class="logo">
+                <div class="logo-text">aza Khabar</div>
 
+            </div>
+            <div class="nav-items">
+                <div><a href="#news">NEWS</a></div>
+                <div><a href="#video">VIDEO</a></div>
+                <div><a href="#photo">PHOTOS</a></div>
+                <div><a href="#moviemasala">MOVIE MASALA</a></div>
+                <div><a href="#kharyakram">KARYAKRAM</a></div>
+                <div><a href="#livetv">LIVE TV</a></div>
+                <div><a href="#iplmax">IPL MAX</a></div>
+            </div>
+        </div>
+        <div class="hero-section">
+        
+           
+            <div class="faded-text">TAZA KHABAR</div>
+            <div class="hero-section-left">
+                <div class="hero-section-heading"><h2>Hlo! Bhartiya Vasiyo</h2></div><br/>
+                <div class="hero-section-heading-hero-section-subheading">Taza Khabar Laya Hai Apke Liye<span class="role"></span></div><br/>
+                <div class="hero-section-description"> <h2>Politics Ho ya Bollywood Chahe ho america ho ya China sab khabar milega yaha sirf aur sirf  TAZA KHABAR PAR</h2></div><br/>
+                <div class="btn-pink" id="btn">Subscribe</div>
+            </div>
+
+            <div class="hero-section-right">
+            <div class="user-image">
+            <img src="./foreground.jpeg" alt="" />
+            <figcaption><b>LIVE TV</b></figcaption>
+            
+            <audio controls autoplay>
+                <source src="./audio level.ogg" type="audio/ogg">
+                <source src="./audio level.mp3" type="audio/mpeg">
+            </audio>
+            </div>
+            </div>
+           </div>
+
+           </div>
+           <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+           <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+           <script>
+           var typeData = new Typed(".role", {
+           strings: [
+          "Desh Duniya Ki Khabre.",
+          "Entertainment Ki Masala.",
+          "IPL 2023 Bumper Dhamka.",
+          "ELections.",
+          "Music Bot.",
+          "Live Tv.",
+          "10 mins 100 Khabre.",
+          "5 mins mai 50 Khabar.",
+          "Political Debeat.",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+    
+</body>
+</html>
